@@ -13,7 +13,7 @@ header {
 
 .nav {
     display: flex;
-    padding-bottom: 100px;
+    padding-bottom: 75px;
     align-items: center;
     justify-content: space-between;
 }
@@ -92,4 +92,58 @@ ul {
     color: #F9FAF8;
     align-items: center;
     justify-content: center;
+}
+
+
+/*Gallery*/
+
+article {
+    padding-left: 450px;
+    padding-right: 450px;
+}
+
+.gallery {
+    padding: 30px;
+    padding-bottom: 50px;
+}
+
+.title {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    padding-bottom: 30px;
+}
+
+.something {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.img {
+    color: #3882f6;
+    border-radius: 17px;
+    border: 3px;
+    border-style: solid;
+    height: 135px;
+    width: 135px;
+    margin-bottom: 10px;
+}
+
+.window {
+    text-align: center;
+}
+
+.window a {
+    font-size: 18px;
+    color: grey;
+    font-weight: bold;
+}
+
+.window p {
+    padding: 0px;
+    margin: 0px;
 }
