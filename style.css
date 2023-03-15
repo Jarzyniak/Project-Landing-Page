@@ -4,8 +4,8 @@ body {
 
 header {
     background-color: #1F2937;
-    padding-left: 450px;
-    padding-right: 450px;
+    padding-left: 25%;
+    padding-right: 25%;
 }
 
 
@@ -98,8 +98,8 @@ ul {
 /*Gallery*/
 
 article {
-    padding-left: 450px;
-    padding-right: 450px;
+    padding-left: 25%;
+    padding-right: 25%;
 }
 
 .gallery {
@@ -146,4 +146,38 @@ article {
 .window p {
     padding: 0px;
     margin: 0px;
+}
+
+
+/*quote*/
+
+.quote {
+    background-color: #E5E7EB;
+    padding-top: 75px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+    margin-left: 10%;
+    margin-right: 10%
+}
+
+.content p {
+    padding: 0;
+    margin: 0;
+}
+
+.author {
+    font-weight: bolder;
+    font-style: italic;
+    font-size: 30px;
+    text-align: right;
+    margin-right: 10%;
+    margin-left: 10%;
 }
